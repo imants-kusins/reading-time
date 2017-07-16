@@ -1,0 +1,21 @@
+{
+    "name": "imantskusins/reading-time",
+    "description": "Reading time",
+    "license": "MIT",
+    "require": {
+    	"nesbot/carbon": "~1.20"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReadTime\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestSuite.php"
+        ]
+    }
+}
